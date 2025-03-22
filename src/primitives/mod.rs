@@ -1,3 +1,8 @@
+pub mod arrays_slices;
+pub mod tuples;
+
+mod tuples_activity;
+
 pub fn primitives() {
     let logical = true;
 
@@ -17,7 +22,10 @@ pub fn primitives() {
 
     let mutable = true;
 
-    let my_array = [1,2,3,4,5];
+    let my_array = [1, 2, 3, 4, 5];
 
     let my_tuple = (5u32, 1u8, true, -5.04f32);
+
+    tuples::tuples();
+    arrays_slices::arrays_slices();
 }
