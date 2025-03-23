@@ -1,5 +1,6 @@
 mod structs;
 mod enums;
+mod constants;
 
 pub fn custom_types() {
     println!("-Structs:");
@@ -7,4 +8,7 @@ pub fn custom_types() {
 
     println!("-Enums:");
     enums::enums();
+
+    println!("-Constants:");
+    constants::constants();
 }

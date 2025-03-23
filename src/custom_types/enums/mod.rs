@@ -1,4 +1,6 @@
+mod test_case;
 mod c_like;
+
 
 #[derive(Debug)]
 struct User {
@@ -122,4 +124,7 @@ pub(super) fn enums() {
 
     println!("--C Like Enums");
     c_like::c_like_enums();
+
+    println!("--Test Case List");
+    test_case::test_case();
 }
